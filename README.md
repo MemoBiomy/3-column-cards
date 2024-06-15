@@ -42,5 +42,3 @@ Users should be able to:
 
 - Github - [@MemoBiomy](https://github.com/MemoBiomy)
 - Frontend Mentor - [@MemoBiomy](https://www.frontendmentor.io/profile/MemoBiomy)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
