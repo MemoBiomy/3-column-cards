@@ -13,6 +13,13 @@ body {
     font-family: "Lexend Deca", sans-serif;
 }
 
+@media (max-width: 767px) {
+    body {
+        display: block;
+        height: fit-content;
+    }
+}
+
 .cards-holder {
     width: 800px;
     display: flex;
@@ -20,9 +27,25 @@ body {
     border-radius: 10px;
 }
 
+@media (max-width: 767px) {
+    .cards-holder {
+        flex-direction: column;
+        margin: 30px auto;
+        width: calc(100% - 200px);
+        height: calc(100% - 80px);
+        overflow: hidden;
+    }
+}
+
 .card {
     flex-basis: calc(100% / 3);
     padding: 40px;
+}
+
+@media (max-width: 767px) {
+    .card {
+        height: calc(100% / 3);
+    }
 }
 
 .card svg {
@@ -47,18 +70,29 @@ body {
 
 .card button {
     cursor: pointer;
-    border: none;
     outline: none;
+    display: block;
     padding: 15px 0;
     text-align: center;
     width: 130px;
     text-transform: capitalize;
     font-family: 'Lexend Deca';
-    margin: 70px 0 0 0;
+    margin: 70px 0 0;
     border-radius: 30px;
     transition: .4s;
     border: 2px solid #f2f2f2;
 }
+
+
+@media (max-width: 767px) {
+    .card button {
+        margin: 20px 0 0 auto;
+    }
+    .card h2 {
+        margin-bottom: 30px;
+    }
+}
+
 
 .card:first-child {
     background-color: #e38826;
