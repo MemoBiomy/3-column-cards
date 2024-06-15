@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.cards-holder {
+    width: 800px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.card {
+    flex-basis: calc(100% / 3);
+    padding: 40px;
+}
+
+.card svg {
+    margin-bottom: 25px;
+}
+
+.card h2 {
+    color: #f2f2f2;
+    margin-bottom: 30px;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+}
+
+.card p {
+    color: #ffffffbf;
+    font-size: 15px;
+    font-size: 13.8px;
+    line-height: 1.5rem;
+}
+
+.card button {
+    border: none;
+    outline: none;
+    padding: 15px 0;
+    text-align: center;
+    width: 130px;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family: 'Lexend Deca';
+    margin: 70px 0 0 0;
+    border-radius: 30px;
+}
+
+.card:first-child {
+    background-color: #e38826;
+}
+
+.card:nth-child(2) {
+    background-color: #006970;
+}
+
+.card:last-child {
+    background-color: #004241;
+}
+
+.card:first-child button {
+    color: #e38826;
+}
+
+.card:nth-child(2) button {
+    color: #006970;
+}
+
+.card:last-child button {
+    color: #004241;
+}

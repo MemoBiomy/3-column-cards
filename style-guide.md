@@ -35,5 +35,3 @@ Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
 
 - Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
 - Weights: 700
-
-> 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.
