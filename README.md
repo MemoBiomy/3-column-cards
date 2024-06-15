@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github repo](https://github.com/MemoBiomy/3-column-cards)
-- Live Site URL: [Add live site URL here](https://memobiomy.github.io/3-column-cards/)
+- Live Site URL: [live Site URL](https://memobiomy.github.io/3-column-cards/)
 
 ## My process
 
